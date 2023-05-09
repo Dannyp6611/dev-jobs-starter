@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-mainBg text-primary font-kumbh pb-4;
+  }
+}
+
+.primary-btn {
+  @apply bg-blue text-white px-6 py-3 rounded-lg font-semibold capitalize hover:bg-blue/70 transition text-lg;
+}
